@@ -5,11 +5,12 @@
 package plotter_test
 
 import (
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/internal/cmpimg"
-	"gonum.org/v1/plot/plotter"
 	"log"
 	"testing"
+
+	"github.com/nuqz/plot"
+	"github.com/nuqz/plot/internal/cmpimg"
+	"github.com/nuqz/plot/plotter"
 )
 
 func TestFloatPrecision(t *testing.T) {

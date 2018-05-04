@@ -11,11 +11,11 @@ import (
 	"reflect"
 	"testing"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/recorder"
+	"github.com/nuqz/plot"
+	"github.com/nuqz/plot/plotter"
+	"github.com/nuqz/plot/vg"
+	"github.com/nuqz/plot/vg/draw"
+	"github.com/nuqz/plot/vg/recorder"
 )
 
 func TestLegendAlignment(t *testing.T) {

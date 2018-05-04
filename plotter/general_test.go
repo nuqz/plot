@@ -8,9 +8,9 @@ import (
 	"log"
 	"testing"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/internal/cmpimg"
-	"gonum.org/v1/plot/vg"
+	"github.com/nuqz/plot"
+	"github.com/nuqz/plot/internal/cmpimg"
+	"github.com/nuqz/plot/vg"
 )
 
 // Draw the plot logo.

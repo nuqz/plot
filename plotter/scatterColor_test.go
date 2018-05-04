@@ -12,12 +12,12 @@ import (
 	"os"
 	"testing"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/internal/cmpimg"
-	"gonum.org/v1/plot/palette/moreland"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/vgimg"
+	"github.com/nuqz/plot"
+	"github.com/nuqz/plot/internal/cmpimg"
+	"github.com/nuqz/plot/palette/moreland"
+	"github.com/nuqz/plot/vg"
+	"github.com/nuqz/plot/vg/draw"
+	"github.com/nuqz/plot/vg/vgimg"
 )
 
 // ExampleScatter_color draws a colored scatter plot.

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"gonum.org/v1/plot/palette"
+	"github.com/nuqz/plot/palette"
 )
 
 // bitTolerance is the precision of a uint8 when

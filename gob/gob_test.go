@@ -12,12 +12,12 @@ import (
 	"os"
 	"testing"
 
-	_ "gonum.org/v1/plot/gob"
+	_ "github.com/nuqz/plot/gob"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"github.com/nuqz/plot"
+	"github.com/nuqz/plot/plotter"
+	"github.com/nuqz/plot/vg"
+	"github.com/nuqz/plot/vg/draw"
 )
 
 func init() {

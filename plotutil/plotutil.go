@@ -5,13 +5,13 @@
 // Package plotutil contains a small number of utilites for creating plots.
 //
 // This package is under active development so portions of it may change.
-package plotutil // import "gonum.org/v1/plot/plotutil"
+package plotutil // import "github.com/nuqz/plot/plotutil"
 
 import (
 	"image/color"
 
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
+	"github.com/nuqz/plot/vg"
+	"github.com/nuqz/plot/vg/draw"
 )
 
 // DefaultColors is a set of colors used by the Color function.

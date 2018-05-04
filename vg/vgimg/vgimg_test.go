@@ -9,11 +9,11 @@ import (
 	"sync"
 	"testing"
 
-	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/plotter"
-	"gonum.org/v1/plot/vg"
-	"gonum.org/v1/plot/vg/draw"
-	"gonum.org/v1/plot/vg/vgimg"
+	"github.com/nuqz/plot"
+	"github.com/nuqz/plot/plotter"
+	"github.com/nuqz/plot/vg"
+	"github.com/nuqz/plot/vg/draw"
+	"github.com/nuqz/plot/vg/vgimg"
 )
 
 func TestIssue179(t *testing.T) {
