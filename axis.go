@@ -226,7 +226,7 @@ func (a horizontalAxis) draw(c draw.Canvas) {
 		if !c.ContainsX(x) || t.IsMinor() {
 			continue
 		}
-		c.FillText(a.Tick.Label, vg.Point{X: x, Y: y + ticklabelheight}, t.Label)
+		c.FillText(a.Tick.Label, vg.Point{X: x, Y: y + ticklabelheight - vg.Points(7.5)}, t.Label)
 	}
 
 	if len(marks) > 0 {
