@@ -13,12 +13,12 @@ package main
 import (
 	"image/color"
 
-	"github.com/nuqz/gonum/mat"
 	"github.com/nuqz/plot"
 	"github.com/nuqz/plot/palette"
 	"github.com/nuqz/plot/plotter"
 	"github.com/nuqz/plot/vg"
 	"github.com/nuqz/plot/vg/draw"
+	"gonum.org/v1/gonum/mat"
 )
 
 type deciGrid struct{ mat.Matrix }

@@ -13,10 +13,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/nuqz/gonum/mat"
 	"github.com/nuqz/plot"
 	"github.com/nuqz/plot/palette"
 	"github.com/nuqz/plot/vg"
+	"gonum.org/v1/gonum/mat"
 )
 
 var visualDebug = flag.Bool("visual", false, "output images for benchmarks and test data")

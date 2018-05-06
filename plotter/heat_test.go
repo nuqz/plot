@@ -11,13 +11,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/nuqz/gonum/mat"
 	"github.com/nuqz/plot"
 	"github.com/nuqz/plot/internal/cmpimg"
 	"github.com/nuqz/plot/palette"
 	"github.com/nuqz/plot/vg"
 	"github.com/nuqz/plot/vg/draw"
 	"github.com/nuqz/plot/vg/vgimg"
+	"gonum.org/v1/gonum/mat"
 )
 
 type offsetUnitGrid struct {
